@@ -1,4 +1,16 @@
-body {
-    background-color: aqua;
-    background-image: url(pix/bkgleather2.jpg);
-}
+                                        /* sytlesheet.css */
+                                    /* Style rule for the body element */
+                                    
+                                    body {
+                                        background-color: aqua;
+                                        background-image: url(pix/bkgleather2.jpg);
+                                    }
+                                    /* Style rule for the wrapper div */
+                                    
+                                    #wrapper {
+                                        width: 900px;
+                                        margin: 0 auto;
+                                        background-color: white;
+                                        border: groove 3px fuchsia;
+                                        border-radius: 9px;
+                                        box-shadow: 15px 5px 5px 15px blue;

@@ -1,16 +1,50 @@
-                                        /* sytlesheet.css */
-                                    /* Style rule for the body element */
-                                    
-                                    body {
-                                        background-color: aqua;
-                                        background-image: url(pix/bkgleather2.jpg);
-                                    }
-                                    /* Style rule for the wrapper div */
-                                    
-                                    #wrapper {
-                                        width: 900px;
-                                        margin: 0 auto;
-                                        background-color: white;
-                                        border: groove 3px fuchsia;
-                                        border-radius: 9px;
-                                        box-shadow: 15px 5px 5px 15px blue;
+/* sytlesheet.css */
+
+
+/* Style rule for the body element */
+
+body {
+    background-color: yellow;
+    background-image: url(pix/bkgleather2.jpg);
+    /* Default font styling */
+    font: 10pt Arial, Helvetica, Sans-Serif;
+    color: #5d3f25;
+    padding: 3em;
+}
+
+
+/* Style rule for the wrapper div */
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 2px #4c2e16;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px black;
+    padding: 3em;
+}
+
+
+/* Style for h1 headings */
+
+h1 {
+    font: italic small-caps bold 24px Arial Black, Gadget, Sans-Serif;
+    text-shadow: 2px 2px 2px #a48362;
+    text-align: center;
+}
+
+
+/* Style for h2 headings */
+
+h2 {
+    font: italic small-caps bold 18px Arial Black, Gadget, Sans-Serif;
+    text-shadow: 1px 1px 1px #a48362;
+}
+
+
+/* Style for paragraphs */
+
+p {
+    line-height: 1.5;
+}

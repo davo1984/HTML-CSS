@@ -16,10 +16,13 @@
         
         p {
             color: red;
+            font-size: larger;
         }
         
         button {
-            background-color: royalblue;
+            background-color: blue;
+            font-size: x-large;
+            font-weight: 600;
             color: powderblue;
             border-radius: 15px;
         }
@@ -27,17 +30,14 @@
 </head>
 
 <body>
-    <h1>This is a heading</h1>
+    <h2>Modify the DOM without reloading the page and no react!</h2>
 
-    <p>This is a paragraph.</p>
-
-    <h2>My First JavaScript</h2>
-
-    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
-      // using the Date() function Click me to display Date and Time.
+    <button id="timestamp" type="button" onclick="document.getElementById('timestamp').innerHTML = Date()">
+      <!-- // using the Date() function Click me to display Date and Time. -->
+      Click me
     </button>
 
-    <p id="demo"></p>
+    <!-- <h1 id="timestamp">Time goes here!</h1> -->
     <!-- Using the id attribute -->
 </body>
 
